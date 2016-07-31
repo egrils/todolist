@@ -101,7 +101,7 @@ var AddTodoCom = React.createClass({
         return(
             <div className='warp'>
                 <h1 className="title">todos</h1>
-                <div>
+
                     <input type='text' className="input-lg" ref='todo'/>
                     <button onClick={this.handleClick} className="button-lg">add todo ☠</button>
                     <div className="list">
@@ -133,7 +133,6 @@ var AddTodoCom = React.createClass({
                         <button className="btn" onClick={this.handleSelect} data-select='delete_completed'>clear completed</button>
                     </div>
 
-                </div>
 
             </div>
         );

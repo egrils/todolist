@@ -2,15 +2,16 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>Hello React!</title>
-    <script src="../../build/react.js"></script>
-    <script src="../../build/react-dom.js"></script>
-    <script src="../../build/browser.js"></script>
+    <title>todolist</title>
+    <script src="./build/react.js"></script>
+    <script src="./build/react-dom.js"></script>
+    <script src="./build/browser.js"></script>
     <script src="//cdn.bootcss.com/redux/3.5.2/redux.min.js"></script>
     <style>
         .panel{
-            margin-top: 20px;
-            background-color: #fff;
+            margin: 20px auto;
+            width: 400px;;
+            background-color: #fbc;
             border: 1px solid transparent;
             border-radius: 4px;
             -webkit-box-shadow: 0 1px 1px rgba(0,0,0, .05);
@@ -39,7 +40,7 @@
         .list{
             width:330px;
             text-align: left;
-            border: 1px solid #fff;
+            border: 1px solid transparent;
             border-radius: 4px;
         }
         .but{
@@ -59,7 +60,7 @@
 </head>
 <body>
 
-<div align="center">
+<div class="panel" align="center">
 
     <div id="mvc" class="panel"></div><script type="text/babel" src="mvc.js"></script>
 
